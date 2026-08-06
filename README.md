@@ -22,17 +22,21 @@ The project runs an iterative pipeline across multiple dedicated LLM agents:
 git clone https://github.com
 cd llm_quant1
 ```
+*(Note: Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username).*
 
-### 2. Install Required Dependencies
-Ensure you have Python installed, then run the terminal installation:
-```bash
-pip install pandas numpy yfinance groq python-dotenv
-```
-
-### 3. Configure Local Environment Variables
+### 2. Configure Local Environment Variables
 Create a file named `.env` in the root folder to house your API access tokens safely. Do **not** commit this file to Git.
 ```text
 GROQ_API_KEY=your_actual_groq_api_key_here
+```
+
+### 3. Install Dependencies
+You can install dependencies via your terminal:
+```bash
+pip install pandas numpy yfinance groq python-dotenv
+```
+*Alternatively, the notebook includes embedded `%pip install` commands to automatically configure your environment when you select **Run All**.*
+
 ```
 
 ## 📈 Usage
