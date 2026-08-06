@@ -37,8 +37,6 @@ pip install pandas numpy yfinance groq python-dotenv
 ```
 *Alternatively, the notebook includes embedded `%pip install` commands to automatically configure your environment when you select **Run All**.*
 
-```
-
 ## 📈 Usage
 Run all pipeline segments sequentially via your code editor or by selecting **Run All** directly from the Jupyter interface notebook file:
 ```bash
@@ -53,4 +51,5 @@ Once execution concludes successfully, check the newly generated `outputs/` subf
 
 ## 🔒 Security
 This repository includes a strict `.gitignore` mapping structure preventing local configuration files (`.env`), system caches, environment settings (`.venv`), or active credential footprints from tracking upstream to global history registries.
+
 
